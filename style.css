@@ -1,0 +1,742 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,{
+	font-family: 'Alfa Slab One', cursive;
+}
+
+p,a,input,button,span,{
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+
+
+.header{
+	background-color: #6d2b70;
+	width: 100%;
+}
+
+
+.logo img{
+	margin-left: 100px;
+	margin-top: 10px;
+}
+
+
+.manu ul li{
+	list-style: none;
+
+}
+
+
+.manu ul{
+	display: inline-block;
+	margin-left: 30px;
+   
+}
+
+.manu ul li a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+
+.manu{
+	margin-top: 20px;
+	padding: 8px 0px;
+}
+
+
+
+.manu ul li a:hover{
+	transition: all 0.5s ease-in-out;
+	color: white;
+}
+
+/**************************
+/*banner code start here*/
+/****************************/
+
+.banner{
+	background-color: #933798;
+	width: 100%;
+
+}
+
+
+.banner-img img{
+	margin-left: 150px;
+}
+
+
+.banner-tex{
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+.banner-img01{
+	margin-top: 150px;
+}
+
+.banner-img01 img{
+	margin-bottom: 10px;
+}
+
+.banner-tex p{
+	color: white;
+	font-size: 21px;
+	margin-top: 10px;
+}
+
+
+.banner-tex button{
+	padding: 12px 50px;
+	border-radius: 25px;
+	border: none;
+	background-color: #ffd600;
+	color: #340d35;
+	font-size: 18px;
+	font-weight: bold;
+	transition: all 0.5s ease-in-out;
+}
+
+
+.banner-tex button:hover{
+		
+	background-color: #340d35;
+	color: #ffd600;
+	transition: all 0.5s ease-in-out;
+}
+
+
+.banner-tex button{
+	margin-top: 40px;
+
+	
+}
+
+
+/***************************/
+/*banner code end here*/
+/****************************/
+
+
+
+
+
+/***************************/
+/*body-01 code start here*/
+/****************************/
+.body-01-header{
+	width: 100%;
+	text-align: center;
+}
+
+
+.body-01-header h1{
+	font-weight: bold;
+	font-size: 40px;
+	margin-top: 100px;
+}
+
+.body-01-header p{
+	color: #330d34;
+	font-size: 18px;
+	width: 45%;
+	margin-left: 350px;
+	margin-top: 10px;
+}
+
+
+.body-01-text p{
+	width: 63%;
+	margin-left: 220px;
+
+}
+
+.body-01-text {
+	background-color: #ffe9ff;
+	border-top-right-radius:5%;
+	border-bottom-right-radius:5%;
+	margin-top: 70px;
+	margin-right: 40px;
+	padding: 10px 0px;
+	
+	
+}
+
+
+.body-01-h1{
+	text-align: center;
+}
+
+
+.body-01-h1 h1{
+	font-weight: bold;
+
+}
+.body-01-h1 p{
+	width: 45%;
+	margin: 0 auto;
+	font-size: 17px;
+	margin-top: 20px;
+	color: #340e35;
+	font-weight: 600;
+}
+
+
+.box{
+	margin: 0 5px;
+	text-align: center;
+	background-color: red;
+	margin-top: 30px;
+	background-color: #ffe9ff;
+}
+
+.box p{
+	width: 70%;
+	margin: 0 auto;
+	padding-bottom: 35px;
+    font-weight: 600;
+    color: #340e35;
+    margin-top: 20px;
+}
+
+
+.box img{
+	margin-top: 30px;
+
+}
+
+
+
+/***************************/
+/*body-01 code end here*/
+/****************************/
+
+
+
+
+
+/***************************/
+/*body-03 code start here*/
+/****************************/
+.body-03{
+    margin-top: 100px;
+	width: 100%;
+	height: 50vh;
+	background-image: url(Screenshot_42.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.body-03-info{
+	text-align: center;
+}
+
+.body-03-info h1{
+	font-weight: bold;
+	color: white;
+	font-size: 40px;
+	margin-top: 80px;
+}
+
+.body-03-info p{
+	font-size: 17px;
+	width: 40%;
+	margin: 0 auto;
+	color: white;
+	margin-top: 20px;
+}
+
+.body-03-info button{
+	padding: 7px 30px;
+	border-radius: 25px;
+	border: none;
+	border: 1px solid white;
+	background-color: transparent;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	transition: all 0.5s ease-in-out;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+.body-03-info button:hover{
+	background-color: white;
+	color: #933898;
+	transition: all 0.5s ease-in-out;
+}
+
+/***************************/
+/*body-03 code end here*/
+/****************************/
+
+
+
+
+
+/***************************/
+/*body-04 code start here*/
+/****************************/
+
+.body-04-header{
+	text-align: center;
+}
+
+.body-04-header h1{
+	font-weight: bold;
+	font-size: 40px;
+    margin-top: 80px;
+}
+
+.body-04-header p{
+	font-weight: 600;
+	color: #340e35;
+	width: 45%;
+	margin: 0 auto;
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+
+
+
+
+
+.body-04-text p{
+	width: 63%;
+	margin-left: 120px;
+
+}
+
+.body-04-text {
+	background-color: #ffe9ff;
+	border-top-left-radius:5%;
+	border-bottom-left-radius:5%;
+	margin-top: 70px;
+	margin-left: 60px;
+	padding: 10px 0px;
+	
+	
+}
+
+
+
+.body-04-button{
+	margin: 0 auto;
+}
+
+.body-04-button button{
+	padding: 10px 30px;
+	border-radius: 25px;
+	border: none;
+	border: 1px solid #933798;
+	background-color: #933798;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	transition: all 0.5s ease-in-out;
+	
+	margin-left: 10px;
+}
+
+
+.body-04-button button:hover{
+	background-color: white;
+	color: #933798;
+	transition: all 0.5s ease-in-out;
+}
+
+
+
+
+/***************************/
+/*body-04 code end here*/
+/****************************/
+
+
+
+
+/***************************/
+/*body-05 code start here*/
+/****************************/
+
+.body-05-header{
+	text-align: center;
+}
+
+
+.body-05-header h1{
+	font-weight: bold;
+	font-size: 45px;
+	margin-top: 140px;
+
+}
+
+
+.body-05-header p{
+	font-size: 17px;
+	color: #212529;
+	width: 50%;
+	margin: 0 auto;
+}
+
+
+.body-05-tex{
+	padding-bottom: 25px;
+	text-align: center;
+	background-color: #d9d9d9;
+	margin-top: 30px;
+}
+
+.body-05-h1{
+	background-color: #933798;
+	padding: 10px 0;
+}
+
+.body-05-h1 h3{
+	color: white;
+	font-weight: 600;
+}
+
+.body-05-tex p{
+	font-size: 17px;
+	color: #212529;
+	margin-top: 10px; 
+}
+
+.body-05-tex h2{
+ 	font-weight: 600;
+ 	color: #933798;
+}
+
+.body-05-tex button{
+	padding: 10px 40px;
+	border-radius: 25px;
+	border: none;
+	border: 1px solid #933798;
+	background-color: #933798;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	transition: all 0.5s ease-in-out;
+	
+	margin-left: 10px;
+}
+
+.body-05-tex button:hover{
+	background-color: white;
+	color: #933798;
+	transition: all 0.5s ease-in-out;
+}
+
+
+
+.body-05-tex ul li{
+ 	list-style: none;
+ 	font-size: 17px;
+ 	margin-top: 3px;
+}
+
+
+
+/***************************/
+/*body-05 code end here*/
+/****************************/
+
+
+
+
+
+
+
+/***************************/
+/*body-06 start end here*/
+/****************************/
+
+.body-06{
+	width: 100%;
+}
+
+.body-06-header{
+	text-align: center;
+	margin-top: 120px;
+}
+
+.body-06-header p{
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 15px;
+	color: #330d35;
+}
+
+.body-06-header h1{
+	font-weight: bold;
+	font-size: 45px;
+}
+
+.body-06-img{
+	margin-top: 40px;
+	position: relative;
+}
+
+.body-06-text{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.body-06-text h5{
+	color: white;
+	font-weight: bold;
+	margin-left: 15px;
+}
+
+
+.body-06-button{
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+
+.body-06-button button{
+	padding: 10px 40px;
+	border-radius: 25px;
+	border: none;
+	border: 1px solid #933798;
+	background-color: #933798;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	transition: all 0.5s ease-in-out;
+	
+	margin-left: 10px;
+}
+
+.body-06-button button:hover{
+	background-color: white;
+	color: #933798;
+	transition: all 0.5s ease-in-out;
+}
+
+
+
+/***************************/
+/*body-06 end end here*/
+/****************************/
+
+
+
+/***************************/
+/*body-07 end start here*/
+/****************************/
+.body-07{
+	width: 100%;
+}
+
+
+.body-07-header{
+	text-align: center;
+	margin-top: 120px;
+}
+
+.body-07-header p{
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 15px;
+	color: #330d35;
+}
+
+.body-07-header h1{
+	font-weight: bold;
+	font-size: 45px;
+}
+
+.body-07-box{
+	border: 2px solid #856e86;
+	padding: 50px 30px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.body-07-box h4{
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.body-07-box p{
+	width: 90%;
+	color: #340d35;
+	margin: 0 auto;
+	font-size: 17px;
+	margin-top: 10px;
+}
+
+
+/***************************/
+/*body-07 end end here*/
+/****************************/
+
+
+
+/***************************/
+/*body-08  start here*/
+/****************************/
+.body-08{
+	width: 100%;
+}
+
+
+.body-08-in01{
+	margin-top: 40px;
+}
+.body-08-in01 input{
+	width: 95%;
+	padding: 10px 5px;
+	border: none;
+	border: 1px solid #340d35;
+	border-radius: 10px;
+	font-weight: bold;
+	color: #340d35;
+	background-color: #edbdec;
+}
+
+.body-08-in02 input{
+	width: 95%;
+	padding: 10px 5px;
+	padding-bottom: 60px;
+	border: none;
+	border: 1px solid #340d35;
+	border-radius: 10px;
+	font-weight: bold;
+	color: #340d35;
+	background-color: #edbdec;
+}
+
+.body-08-in02{
+	margin-top: 22px;
+}
+
+.body-08-in02 button{
+	margin-top: 22px;
+	padding: 10px 40px;
+	border-radius: 25px;
+	border: none;
+	border: 1px solid #933798;
+	background-color: #933798;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	transition: all 0.5s ease-in-out;
+}
+
+
+.body-08-in02 button:hover{
+	background-color: white;
+	color: #933798;
+	transition: all 0.5s ease-in-out;
+}
+
+
+.body-08-map{
+	margin-top: 40px;
+}
+
+
+
+/***************************/
+/*body-08  end here*/
+/****************************/
+
+
+
+
+
+/***************************/
+/*body-09  start here*/
+/****************************/
+.body-09{
+	width: 100%;
+	background-color: #49134c;
+	margin-top: 100px;
+}
+
+
+.body-09-tex{
+	text-align: center;
+}
+
+
+.body-09-tex img{
+	margin-top: 110px;
+}
+.body-09-tex p{
+	color: white;
+	font-size: 17px;
+	width: 49%;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.body-09-manu ul li a i{
+	color: black;
+	height: 50px;
+	width: 50px;
+	background-color: #ffd600;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 50px;
+	font-size: 25px;
+	opacity: 1;
+	margin-left: 20px;
+}
+
+.body-09-manu ul li a i:hover{
+	opacity: 0.8;
+}
+
+.body-09-manu ul li{
+	
+	list-style: none;
+}
+
+.body-09-manu{
+	text-align: center;
+	margin-top: 30px;
+	padding-bottom: 100px;
+}
+
+/***************************/
+/*body-09  end here*/
+/****************************/
+
+
+.futter{
+	width: 100%;
+	background-color: #340d35;
+}
+
+.futter-tex{
+	text-align: center;
+	padding: 15px 0px;
+}
+
+.futter-tex p{
+	color: #c1c1c1;
+	font-weight: bold;
+	margin-top: 8px;
+
+}
